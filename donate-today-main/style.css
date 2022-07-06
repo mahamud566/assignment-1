@@ -17,12 +17,30 @@ header{
 h1{
     font-size: 250%;
 }
+.donate-field{
+    height: 20px;
+    width: 300px;
+    margin-top: 15px;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-left: 500px;   
+}
+#border{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 a{
     color: aliceblue;
     border-radius: 10px;
     background-color: #FF5959;
     padding: 8px;
     text-decoration: none;
+    margin: 10px;
 }  
 .mid-area{
     text-align: center;
@@ -55,6 +73,7 @@ p.amount-box{
     color: white;
     font-weight: 400;
     border-radius: 5%;
+    margin-top: 15px;
     margin-left: 43%;
     text-decoration: none;
 }
@@ -93,6 +112,27 @@ section{
     width: 60%;
     margin-left: 20%;
 }
+.button-1{
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(250, 11, 111);
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+  }
+.button-2{
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  }
 .other-section{
     text-align: center;
 }
