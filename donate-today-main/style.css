@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px;
+} 
+
+header{
+    color: white;
+    text-align: center;
+    padding: 10%;
+    background-image:
+    linear-gradient(to bottom, rgba(222, 224, 235, 0.52), rgba(5, 0, 4, 0.73)),
+    url('images/donation0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 250%;
+}
+a{
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #FF5959;
+    padding: 8px;
+}  
+.mid-area{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.taka-box{
+    margin: auto;
+    padding-top: 30px;
+    font-weight: 700;
+    display: flex;
+    list-style: none;
+    position: relative;
+    justify-content: space-evenly;
+    width: 70%;
+}
+#box{
+    border: 2px solid #FF5959;
+    padding: 15px;
+}
+p.amount-box{
+    margin-top: 40px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.link-button{
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5%;
+    margin-left: 43%;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    padding: 40px;
+    
+}
+.donate-plan{
+    padding-top: 100px;
+    text-align: center;
+}
+.donate-type{
+    padding: 50px 15px;
+    
+    margin: 8px;
+}
+#plan-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#plan-2{
+    background-color: rgba(255, 89, 89, 0.1) ;
+}
+#plan-3{
+    background-color: #FFF4D6;
+}
+.form-section{
+    padding: 50px 15px;
+    text-align: center;
+    font-weight: 800;
+}
+
+footer{
+    text-align: center;
+    color: #FF5959;
+    background-color: black;
+}
+.footer-content{
+    padding: 10px 0px;
+}
