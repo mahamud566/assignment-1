@@ -17,16 +17,18 @@ header{
 h1{
     font-size: 250%;
 }
+.input-field{
+    display: flex;
+    justify-content: center;
+}
 .donate-field{
-    height: 20px;
+    height: 50px;
     width: 300px;
-    margin-top: 15px;
-    padding-left: 20px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    margin-top: 30px;
+    padding-left: 100px;
+    border-radius: 5px;
     background-color: whitesmoke;
-    border: 1px solid whitesmoke;
-    margin-left: 500px;   
+    border: 1px solid whitesmoke; 
 }
 #border{
     width: 65%;
@@ -73,14 +75,17 @@ p.amount-box{
     margin-bottom: 10px;
     text-align: center;
 }
+span.linkbutton{
+    display: flex;
+    justify-content: center;
+}
 .link-button{
     background-image: linear-gradient(red, tomato);
     padding: 10px 40px;
     color: white;
     font-weight: 400;
     border-radius: 5%;
-    margin-top: 15px;
-    margin-left: 43%;
+    
     text-decoration: none;
 }
 section{
@@ -159,4 +164,15 @@ footer{
 }
 .footer-content{
     padding: 10px 0px;
+}
+@media screen and (max-width:450px) {
+   section.donate-plan-box{
+    display: block;
+    justify-content: space-between;
+   }
+   div.box{
+    display: block;
+    justify-content: center;
+   }
+
 }
