@@ -53,13 +53,19 @@ a{
     font-weight: 700;
     display: flex;
     list-style: none;
-    position: relative;
     justify-content: space-evenly;
-    width: 70%;
 }
 #box{
+    border: 2px solid #FF5959; 
+    background-color: rgb(255, 197, 197);  
+}
+.tk{
+    box-shadow: 2px lightblue;
+    padding: 20px;
+    background-color:lightgray;
+}
+.tk:hover{
     border: 2px solid #FF5959;
-    padding: 15px;
 }
 p.amount-box{
     margin-top: 40px;
