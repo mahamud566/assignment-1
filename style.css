@@ -138,7 +138,7 @@ div.sub-box{
   }
 .button-2{
     height: 20px;
-    width: 300px;
+    /* width: 300px; */
     padding: 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -157,7 +157,6 @@ div.sub-box{
     border: 3px solid black;
     width: 300px;
     padding: 20px 10px;
-    margin-left: 70px;
 }
 footer{
     text-align: center;
@@ -168,15 +167,24 @@ footer{
     padding: 10px 0px;
 }
 @media screen and (max-width:450px) {
-   section.donate-plan-box{
+    body{
+        margin: 0;
+        padding: 0;
+    }
+   ul.taka-box{
+    display: block;
+    justify-content: center;
+   }
+    section.donate-plan-box{
     display: block;
     justify-content: space-between;
    }
    div.box{
     display: block;
     justify-content: center;
+    margin-left: 30px;
    }
-   div.box{
+   div.sub-box{
     display:block;
     justify-content: center;
     width: 100%;
