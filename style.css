@@ -175,6 +175,10 @@ footer{
     display: block;
     justify-content: center;
    }
+   li.tk{
+    width:90%;
+    text-align: center;
+   }
     section.donate-plan-box{
     display: block;
     justify-content: space-between;
